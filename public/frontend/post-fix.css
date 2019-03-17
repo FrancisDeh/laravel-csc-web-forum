@@ -1,0 +1,34 @@
+.rm-mg-10{
+	margin-top: 0;
+}
+
+.mg-top-10{
+	margin-top: 10px;
+}
+
+.mg-top-20{
+	margin-top: 20px;
+}
+
+.mg-top-30{
+	margin-top: 30px;
+}
+.mg-top-40{
+	margin-top: 40px;
+}
+.mg-top-50{
+	margin-top: 50px;
+}
+.mg-top-60{
+	margin-top: 60px;
+}
+
+@media (min-width: @screen-sm-min) {
+	.space-navbar{
+		margin-top: 100px;
+	}
+}
+
+.category-section .card, .page-content-section .card{
+	box-shadow: none !important;
+}

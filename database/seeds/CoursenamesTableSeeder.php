@@ -1,0 +1,100 @@
+<?php
+
+use Illuminate\Database\Seeder;
+
+class CoursenamesTableSeeder extends Seeder
+{
+    /**
+     * Run the database seeds.
+     *
+     * @return void
+     */
+    public function run()
+    {
+        DB::table('coursenames')->insert([
+        	['id' => 1, 'name' => 'Introduction To Computing'],
+            ['id' => 2, 'name' => 'Communicative Skills I'],
+            ['id' => 3, 'name' => 'Informaion Literacy 1'],
+            ['id' => 4, 'name' => 'Algebra And Trigonometry'],
+            ['id' => 5, 'name' => 'General Physics'],
+            ['id' => 6, 'name' => 'Programming Techniques'],
+            ['id' => 7, 'name' => 'Communicative Skills II'],
+            ['id' => 8, 'name' => 'Analytic Geometry and Calculus'],
+            ['id' => 9, 'name' => 'General Physics II'],
+            ['id' => 10, 'name' => 'Introduction to Operating Systems'],
+            ['id' => 11, 'name' => 'Programming and Problem Analysis I'],
+            ['id' => 12, 'name' => 'Introduction to Abstract Algebra'],
+            ['id' => 13, 'name' => 'Newtonian Mechanics'],
+            ['id' => 14, 'name' => 'Heat, Optics, Atomic (optional)'],
+            ['id' => 15, 'name' => 'Software Engineering'],
+            ['id' => 16, 'name' => 'Computer Architecture'],
+            ['id' => 17, 'name' => 'Vector Algebra & Differential Equations'],
+            ['id' => 18, 'name' => 'Introduction to Probability and Statistics'],
+            ['id' => 19, 'name' => 'Electricity and Magnetism'],
+            ['id' => 20, 'name' => 'Analog Electronics (optional)'],
+            ['id' => 21, 'name' => 'Digital Electronics and Computer Organisation'],
+            ['id' => 22, 'name' => 'Data Structures and Organisation'],
+            ['id' => 23, 'name' => 'Computer Security'],
+            ['id' => 24, 'name' => 'Advance Calculus'],
+            ['id' => 25, 'name' => 'Introductory Analysis'],
+            ['id' => 26, 'name' => 'Programming and Problem Analysis II'],
+            ['id' => 27, 'name' => 'Information Systems'],
+            ['id' => 28, 'name' => 'Human Computer Interface'],
+            ['id' => 29, 'name' => 'Advance Calculus II'],
+            ['id' => 30, 'name' => 'Modern Algebra'],
+            ['id' => 31, 'name' => 'Introduction to Compilers'],
+            ['id' => 32, 'name' => 'Database Design'],
+            ['id' => 33, 'name' => 'Advance Operating Systems'],
+            ['id' => 34, 'name' => 'Data Communications and Computer Networks'],
+            ['id' => 35, 'name' => 'Introduction to Artificial Intelligence'],
+            ['id' => 36, 'name' => 'Numerical Analysis'],
+            ['id' => 37, 'name' => 'Internet Based Applications'],
+            ['id' => 38, 'name' => 'System Administration'],
+            ['id' => 39, 'name' => 'Operational Research'],
+            ['id' => 40, 'name' => 'Crytography and Network Security'],
+            ['id' => 41, 'name' => 'Project'],
+            ['id' => 42, 'name' => 'Programming in Basic'],
+            ['id' => 43, 'name' => 'Mathematics and Statistics for Computing'],
+            ['id' => 44, 'name' => 'Computer Hardware'],
+            ['id' => 45, 'name' => 'Intriduction to Computing'],
+            ['id' => 46, 'name' => 'Discrete Mathematics'],
+            ['id' => 47, 'name' => 'Introduction to Management'],
+            ['id' => 48, 'name' => 'Computer Organisation and Operating Systems'],
+            ['id' => 49, 'name' => 'Foundations of Programming I (VB)'],
+            ['id' => 50, 'name' => 'Algorithms and Data Structures'],
+            ['id' => 51, 'name' => 'Software Development I (JAVA)'],
+            ['id' => 52, 'name' => 'Statistical Modelling'],
+            ['id' => 53, 'name' => 'Internet Technology I'],
+            ['id' => 54, 'name' => 'Foundations of Programming II (C++)'],
+            ['id' => 55, 'name' => 'Information System Development'],
+            ['id' => 56, 'name' => 'Database Management I'],
+            ['id' => 57, 'name' => 'Forecasting Methods'],
+            ['id' => 58, 'name' => 'Software Develoment II'],
+            ['id' => 59, 'name' => 'Database Management II'],
+            ['id' => 60, 'name' => 'Network Computing'],
+            ['id' => 62, 'name' => 'Information System Management'],
+            ['id' => 63, 'name' => 'Unix Programming Environment'],
+            ['id' => 64, 'name' => 'Internet Technology II'],
+            ['id' => 65, 'name' => 'Website Development'],
+            ['id' => 66, 'name' => 'Network Computing II'],
+            ['id' => 67, 'name' => 'Management Support Systems'],
+            ['id' => 68, 'name' => 'Introduction to Multimedia Computing'],
+            ['id' => 69, 'name' => 'Mobile & Distributed Computer Systems'],
+            ['id' => 70, 'name' => 'E-Commerce I'],
+            ['id' => 71, 'name' => 'Professional Computing'],
+            ['id' => 72, 'name' => 'Information System Security Management'],
+            ['id' => 73, 'name' => 'Introduction to Intelligence Systems'],
+            ['id' => 74, 'name' => 'Internet Technology III'],
+            ['id' => 75, 'name' => 'E-Commerce'],
+            ['id' => 76, 'name' => 'System Security and Administration'],
+            ['id' => 78, 'name' => 'Learning Theories for Teaching With Computers'],
+            ['id' => 79, 'name' => 'Methods of Teaching Computing'],
+            ['id' => 80, 'name' => 'Modalities of Technology for Education and Training'],
+            ['id' => 81, 'name' => 'Curriculum Studies In Computing Education'],
+            ['id' => 82, 'name' => 'TroubleShooting In Computers'],
+            ['id' => 83, 'name' => 'Designing Instructional Materials With Computers'],
+            ['id' => 84, 'name' => 'Assessment In Computing Education']
+            ]);
+                     
+    }
+}
